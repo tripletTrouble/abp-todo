@@ -21,7 +21,8 @@ The step of installation are explained below:
 3. Install all depedency by running command `composer install` on your terminal.
 4. Copy the environment files using this command `cp .env.example .env`
 5. Generate the application key using artisan command `php artisan key:generate`
-6. Serve the application using command `php artisan serve`
+6. Migrate the tables using command `php artisan migrate`.
+7. Serve the application using command `php artisan serve`
 
 ## Testing
 

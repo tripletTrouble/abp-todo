@@ -16,8 +16,8 @@ class TodoController extends Controller
     public function index(Request $request)
     {
         $activity_groups = Todo::when(
-            $request->has('email'),
-            fn(Builder $query) => $query->where('email', $request->email)
+            $request->has('activity_group_id'),
+            fn(Builder $query) => $query->where('activity_group_id', $request->activity_group_id)
         )
             ->get();
 

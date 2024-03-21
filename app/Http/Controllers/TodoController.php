@@ -110,7 +110,7 @@ class TodoController extends Controller
     {
         $todo = Todo::find($id);
 
-        if (empty ($Todo)) {
+        if (empty ($todo)) {
             return response()->json((new ApiResponse(status: 'Not Found', message: "Todo with ID {$id} Not Found")), 404);
         }
 

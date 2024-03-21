@@ -14,7 +14,7 @@ In order to use this application, you must meet this requirement:
 
 ## Installation
 
-The step of installation are explained bellow:
+The step of installation are explained below:
 
 1. Clone this repository into your local machine, please fullfil the requirement above.
 2. Navigate into folder that you have been cloned.
